@@ -3,7 +3,7 @@ Aplicación interactiva: clasificación de los municipios según la tasa de aver
 
 La tabla muestra el lugar nacional que ocupa cada municipio en México de acuerdo al número de averiguaciones (2011-2014) previas y la tasa por cada 100 mil habitantes en delitos seleccionados del fuero común: homicidios dolosos, robo, secuestro, otros delitos y el total de las averiguaciones previas
 
-La aplicación fue desarrollada con [RStudio](http://www.rstudio.com/) y [Shiny](http://shiny.rstudio.com/). Para replicar la aplicación de manera local ejecutar:
+La [aplicación](http://mexicoevalua.shinyapps.io/app_municipios/) fue desarrollada con [RStudio](http://www.rstudio.com/) y [Shiny](http://shiny.rstudio.com/). Para replicar la aplicación de manera local ejecutar:
 ```
 library(shiny)
 runApp("app_municipios")
