@@ -9,5 +9,5 @@ library(shiny)
 runApp("app_municipios")
 ```
 
-![Screenshot app](https://raw.githubusercontent.com/mexicoevalua/app_municipios/master/www/screen_shot.png)
+![Screenshot app](https://raw.githubusercontent.com/mexicoevalua/app_municipios/master/www/screen_shot.png)(http://mexicoevalua.shinyapps.io/app_municipios/)
 
