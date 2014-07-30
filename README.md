@@ -12,3 +12,4 @@ runApp("app_municipios")
 ![Screenshot app](https://raw.githubusercontent.com/mexicoevalua/app_municipios/master/www/screen_shot.png)
 [Consulta el app interactiva](http://mexicoevalua.shinyapps.io/app_municipios/)
 
+Todo el código se publicó bajo la licencia MIT pero Shiny tiene su propia [licencia](https://github.com/rstudio/shiny). Se recomienda revisarla antes de replicar el análisis.
