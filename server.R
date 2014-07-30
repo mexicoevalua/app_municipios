@@ -2,7 +2,7 @@ library(shiny)
 
 # Load the ggplot2 package which provides
 # the 'mpg' dataset.
-library(ggplot2)
+
 data  <- read.csv("data/data_table.csv", encoding="utf8")
 
 # Define a server for the Shiny app

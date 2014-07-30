@@ -1,8 +1,6 @@
 library(shiny)
 
-# Load the ggplot2 package which provides
-# the 'mpg' dataset.
-library(ggplot2)
+# Cargar datos
 data  <- read.csv("data/data_table.csv", encoding="utf8")
 
 # Define the overall UI
@@ -40,7 +38,7 @@ shinyUI(
       dataTableOutput(outputId="table")
     ),
     helpText(
-      "Desarrollado por ", a(href="http://www.seguridad.mexicoevalua.org", "México Evalúa."),
+      "Desarrollado por ", a(href="http://www.mexicoevalua.org", "México Evalúa."),
       "Visita el proyecto en", a(href="https://github.com/mexicoevalua/app_municipios", "GitHub.")),
     img(src="logo_72x92.png", height = 72, width = 92)
     
