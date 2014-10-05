@@ -6,10 +6,9 @@ data  <- read.csv("data/data_table.csv", encoding="utf8")
 # Define the overall UI
 shinyUI(
   fluidPage(
-    titlePanel("Clasificación de municipios según delitos del fuero común"),
-    helpText("La tabla muestra el lugar nacional que ocupa cada municipio en México de acuerdo al número de averiguaciones (2011-2014)
-             previas y la tasa por cada 100 mil habitantes en delitos seleccionados del fuero común: homicidios dolosos,
-             robo, secuestro, otros delitos y el total de las averiguaciones previas"),
+    titlePanel("Clasificación de municipios según la tasa de averiguaciones previas por delitos del fuero común 2011 - 2014"),
+    helpText("La tabla muestra el lugar que ocupa cada municipio en México de acuerdo a la tasa de averiguaciones previas por cada 100 mil habitantes, en delitos seleccionados del fuero común: homicidios dolosos, robos a vehículos, robos con violencia,  secuestros, extorsiones y el total de las averiguaciones previas.
+             "),
     
     # Create a new Row in the UI for selectInputs
     fluidRow(
