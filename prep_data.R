@@ -7,9 +7,10 @@
 # http://crimenmexico.diegovalle.net/en/csv/
 # Fuente original: http://www.incidenciadelictiva.secretariadoejecutivo.gob.mx/
 
-# Utilizar datos desde el repo del mapa de delitos del fuero comun en github
-#https://github.com/mexicoevalua/mapaDelitosFueroComun
-data  <- read.csv("incidenciaDelictiva/data/fuero-comun-municipios.csv", as.is=T, encoding="utf8")
+# Utilizar datos desde el archivo gzip para consumir menos memoria
+gunzip("incidenciaDelictiva/data/fuero-comun-municipios.csv.gz")
+data  <- read.csv("incidenciaDelictiva/data/fuero-comun-municipios.csv", as.is=T)
+
 
 # Años
 table(data$year) # 2011, 2012, 2013, 2014
