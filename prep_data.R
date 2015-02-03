@@ -8,8 +8,10 @@
 # Fuente original: http://www.incidenciadelictiva.secretariadoejecutivo.gob.mx/
 
 # Utilizar datos desde el archivo gzip para consumir menos memoria
+#Importante: cambiar ruta del directorio del Micrositio
 gunzip("incidenciaDelictiva/data/fuero-comun-municipios.csv.gz")
-data  <- read.csv("incidenciaDelictiva/data/fuero-comun-municipios.csv", as.is=T)
+gunzip("~/Micrositio/incidenciaDelictiva/data/fuero-comun-municipios.csv.gz")
+data  <- read.csv("~/Micrositio/incidenciaDelictiva/data/fuero-comun-municipios.csv", as.is=T)
 
 
 # Años
